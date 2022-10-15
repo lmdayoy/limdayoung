@@ -75,11 +75,53 @@
          </main>
     <article>
       <h2> 당신의 의견을 제출하세요</h2>
+      <!-- 사용자 입력 제출을 위한 form-->
       <form action="#"method="POST">
+        <label for="u-name">유저네임</label>
+        <input type="text" id="u-name" name="u-name">
+        <label for="u-pw">패스워드</label>
+        <input type="password" id="u-pw" name="u-pw">
+        <span>의견</span>
         <input type="text" id="opinion"name="opinion">
-      </form>
+        <input type="submit">
+        <button yupe="reset">취소</button>
+
+        <label for="coffee-menu">Choose a menu:</label>
+<select name="coffee" id="coffee-menu">
+  <!-- require을주면 필수 선택으로 변경-->
+  <option value="">--메뉴를고르세요--</option>
+  <option value="americano">아메리카노</option>
+  <option value="latte">라떼</option>
+  <option value="mocha">모카치노</option>
+</select>
+  --</option>
+     </option>
+</option>
+</option>
+         </form>
+      
+      <input list="movies" id="user-movie" name="movie">
+<datalist id="movies">
+      <option value="Dune"></option>
+      <option value="Arrival"></option>
+      <option value="Blade Runner 2049"></option>
+</datalist>
+      
+    <article>
+      <p>
+        <strong>Strong과</strong>
+        <b>b</b>의 차이가 느껴집니까?
+        혹은
+        <em>em</em>과
+        <i>i</i>의차이가 느껴지십니까?
+<!-- strong과 em 키워드 b,i와 달리 중요하다는 정보까지 전달해줌-->
+      </p>
     </article>
-    
+
+<p><iframe src="https://www.google.com/" id="google-home" name="google-home" frameborder="1" width="320" height="240" scrolling="auto" title=" "> . <a href="https://www.google.com/">https://www.google.com/</a> .</iframe></p>
+
+
+      
       <article id="featured-post">
         <article class="featured-post">
           <h2>어른폰 14 싸게 사는 법</h2>
