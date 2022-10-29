@@ -1,3 +1,23 @@
 body{
   background-color: #9999cc;
 }
+.box {
+    background-color: #ead632;
+    width: 100px;
+    height: 100px;
+}
+#left {
+    text-align: left; /* 왼쪽 정렬 */
+}
+
+#right {
+    text-align: right; /* 오른쪽 정렬 */
+}
+
+#center {
+    text-align: center; /* 가운데 정렬 */
+}
+
+#justify {
+    text-align: justify; /* 양쪽 정렬 */
+}

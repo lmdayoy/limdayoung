@@ -1,0 +1,13 @@
+h1,
+h2,
+h3
+h4, 
+h5, 
+h6 {
+  font-family: 'NanumSquare', san-serif;
+color:#0B6138}
+/*나눔스퀘어를 안쓸 땐 산세리프를 써라 따옴표는 우선순위*/
+
+p {
+  font-family: 'Gowun Batang', serif;
+}
