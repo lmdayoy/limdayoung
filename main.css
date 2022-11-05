@@ -5,9 +5,47 @@ h4,
 h5, 
 h6 {
   font-family: 'NanumSquare', san-serif;
-color:#0B6138}
+color:#0B6138;
+word-spacing: 0.1em;
+letter-spacing:-0.03em;}
 /*나눔스퀘어를 안쓸 땐 산세리프를 써라 따옴표는 우선순위*/
-
-p {
+.main-wrapper{
+  width: 500px;
+  margin: 0 auto;
+}
+p.subtitle {
   font-family: 'Gowun Batang', serif;
+  text-align: center;
+}
+.main-text{
+  font-weight:300;
+  font-size: 15px;
+  text-align: center;
+  line-height : 1.8em;
+}
+.box-a{
+  width: 100px;
+  height: 100px; 
+  display: inline-block;
+  background-color: red;
+}
+.box-b{
+  width: 100px;
+  height: 100px; 
+  display: inline-block;
+  background-color: green;
+}
+.box-c{
+  width: 100px;
+  height: 100px; 
+  display: inline-block;
+  background-color: blue;
+}
+
+.div-pad {
+  padding: 5px;
+}
+/*값이 2개일 경우 가로 세로 다르게 들어가는,값이 3개일 경우 위,좌우,아래 값을 안넣으면 반대편의 수치를 가져와서 여백을 만듦*/
+.div-margin {
+  margin: 10px;
 }
