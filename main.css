@@ -49,3 +49,24 @@ p.subtitle {
 .div-margin {
   margin: 10px;
 }
+
+.content-wrapper{
+  display:flex; /*반응형으로 만들어줌*/
+  flex-direction: column; /*수평나열이 아닌 수직나열로 변경해줌*/
+}
+
+.flex-a{
+  width:300px;
+  height:100px;
+  background-color:red;
+}
+.flex-b{
+  width:300px;
+  height:100px;
+  background-color:green;
+}
+.flex-c{
+  width:300px;
+  height:100px;
+  background-color:blue;
+}
